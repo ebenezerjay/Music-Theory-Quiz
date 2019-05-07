@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Applied guitar for beginners</title>
+	<title>Music Theory Quiz</title>
 		<link rel="stylesheet" href="styles.css">
 		<!-- <link rel="stylesheet" type="text/css" href="normalize.css/normalize.css"> -->
 		<meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1.0">
 		<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Oswald" rel="stylesheet"></head>
 <body>
-	<header>
-		<h1>Music theory for guitar</h1>
+	<header class="flex">
+		<h1 class="flex">Basic Music Theory Quiz</h1>
 		<nav>
-			<ul>
+			<ul class="flex">
 				<li class="sidebar-list" href="file:///Users/ebenezeringalsbe/Desktop/turing/mod1/practice/index.html" class="header-list">Home</li>
 				<li class="sidebar-list"href="" class="header-list">Why theory?</li>
 				<li class="sidebar-list"href="" class="header-list">Scales</li>
@@ -19,49 +19,55 @@
 			</ul>
 		</nav>
 	</header>
-	<article class="sidebar">
+	<article class="sidebar flex">
 		<!-- <img src="guitar-fretboard.png" class="fretboard-image"> -->
 	</article>
 	<article class="right-sidebar">
 
 	</article>
-	<main>
-		<section class="section-top">
+	<main class="flex">
+		<section class="flex">
 			<h3 class="lesson1-heading">Key signatures</h3>
-			<p id="key-paragraph" class="key-paragraph text-background">
-				<span id="key-span" class="key-span">C major</span>
-				C major has no sharps or flats. On the keyboard that is all the white keys. 
-				Find all the C's on this <a href="Guitar-Fretboard.png" target="_blank"> guitar fretboard</a>
-			</p>
-			<img src="piano-keyboard-layout.png" class="keyboard-image">
-			<h3 id="h3-key-heading" class="h3-key-heading text-background">Notes in C major</h3>
-			<ol id="key-list" class="key-list text-background">
-				<li class="ol-key-li" id="li-1">C</li>
-				<li class="ol-key-li" id="li-2">D</li>
-				<li class="ol-key-li" id="li-3">E</li>
-				<li class="ol-key-li" id="li-4">F</li>
-				<li class="ol-key-li" id="li-5">G</li>
-				<li class="ol-key-li" id="li-6">A</li>
-				<li class="ol-key-li" id="li-7">B</li>
-				<li class="ol-key-li" id="li-8">C</li>
-			</ol>
-			<p class="ol-key-paragraph">
-				Each letter in the scale is associated with a number in that scale. Notice 1 and 8 are the same letters. That's because they are one octave apart (8 is higher).
-			</p>
+			<article class="section-top flex">
+				<p id="key-paragraph" class="key-paragraph class">
+					<span id="key-span" class="key-span">C major</span>
+					C major has no sharps or flats. On the keyboard that is all the white keys. 
+					Find all the C's on this <a href="Guitar-Fretboard.png" target="_blank"> guitar fretboard</a>
+				</p>
+				<img src="piano-keyboard-layout.png" class="keyboard-image">
+			</article>
+			<article class="section-middle">
+				<h3 id="h3-key-heading" class="h3-key-heading text-background">Notes in C major</h3>
+				<ol id="key-list" class="ol-key-list text-background">
+					<li class="ol-key-li" id="li-1">C</li>
+					<li class="ol-key-li" id="li-2">D</li>
+					<li class="ol-key-li" id="li-3">E</li>
+					<li class="ol-key-li" id="li-4">F</li>
+					<li class="ol-key-li" id="li-5">G</li>
+					<li class="ol-key-li" id="li-6">A</li>
+					<li class="ol-key-li" id="li-7">B</li>
+					<li class="ol-key-li" id="li-8">C</li>
+				</ol>
+				<p class="ol-key-paragraph">
+					Each letter in the scale is associated with a number in that scale. Notice 1 and 8 are the same letters. That's because they are one octave apart (8 is higher).
+				</p>
+			</article>
+			<article class="section-bottom" id="h2Congrats">
+				<form>
+					<h2 id="h2-question" class="h2-question text-background flex" id="h2-question">How many sharps or flats are in C major?</h2>
+					<h2 class="h2-outcome text-background flex" id="h2-outcome">?</h2>
+					<!-- <label name="answer-input" for="answer-input">Answer</label> -->
+					<div class="form-bottom flex">
+						<input type="number" id="answer-input" name="answer-input" placeholder="type answer here">
+						<button class="submit-button" id="submit-button" type="button" name="submit-button">Submit Answer</button>
+					</div>
+				</form>
+			</article>
 		</section>
-		<section class="section-bottom" id="h2Congrats">
-			<form>
-				<h2 id="h2-question" class="h2-question text-background" id="h2-question">How many sharps and flats are in C major?</h2>
-				<h2 class="h2-outcome text-background" id="h2-outcome">?</h2>
-				<!-- <label name="answer-input" for="answer-input">Answer</label> -->
-			<input type="number" id="answer-input" name="answer-input" placeholder="type answer here">
-			<button class="submit-button" id="submit-button" type="button" name="submit-button">Submit Answer</button>
-			</form>
-	</section>
-</main>
-<footer>
+	</main>
+	<footer>
 
-</footer>
+	</footer>
 </body>
 <script src="main.js"></script>
 <script src="jS.js"></script>
