@@ -1,0 +1,25 @@
+* {
+  border: 1px solid black;
+}
+
+header {
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+}
+
+h1 {
+  color: #8932ae;
+  text-align: center;
+  width: 80%;
+}
+
+.div-wrapper {
+  align-content: center;
+  justify-content: center;
+  width: 99%;
+}
+
+.flex {
+  display: flex;
+}
