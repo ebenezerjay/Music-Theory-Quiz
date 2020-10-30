@@ -1,11 +1,53 @@
-* {
+/* * {
   border: 1px solid black;
+} */
+
+body {
+  width: 99%;
 }
 
 header {
   align-content: center;
+  border: 2px solid black;
+  flex-wrap: wrap;
   justify-content: center;
   width: 100%;
+}
+
+nav {
+  justify-content: center;
+  width: 80%;
+}
+
+ul {
+  align-content: center;
+  list-style: none;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0px;
+  width: 100%;
+}
+
+li {
+  cursor: pointer;
+  justify-content: center;
+  padding: 5px;
+  width: 35%;
+}
+
+li:hover {
+  background-color: #210f30;
+  color: #f9365a;
+}
+
+label {
+  align-self: center;
+  width: 35%;
+}
+
+select {
+  background-color: #f9365a;
+  width: 25%;
 }
 
 h1 {
@@ -14,9 +56,38 @@ h1 {
   width: 80%;
 }
 
+h2 {
+  text-align: center;
+  width: 100%;
+}
+
+h3 {
+  text-align: center;
+  width: 100%;
+}
+
+main {
+  border: 2px solid black;
+  height: 70vh;
+  margin-top: 10px;
+  width: 100%;
+}
+
+article {
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+footer {
+  border: 2px solid black;
+  width: 100%;
+}
+
 .div-wrapper {
   align-content: center;
   justify-content: center;
+  flex-wrap: wrap;
   width: 99%;
 }
 

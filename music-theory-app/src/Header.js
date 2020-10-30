@@ -1,4 +1,6 @@
 import React from "react";
+import Nav from "./Nav.js";
+
 
 class Header extends React.Component {
   constructor() {
@@ -9,6 +11,7 @@ class Header extends React.Component {
     return (
       <header className="flex">
         <h1>Memorize Key Signatures</h1>
+        <Nav/>
       </header>
     )
   }
