@@ -1,6 +1,6 @@
 import React from "react";
-import ImgContainer from "./ImgContainer.js";
 import ExplainerParagraph from "./ExplainerParagraph.js";
+import ImgContainer from "./ImgContainer.js";
 import QuizContainer from "./QuizContainer.js";
 
 class QuestionContent extends React.Component {
