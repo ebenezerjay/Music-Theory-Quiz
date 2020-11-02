@@ -1,5 +1,5 @@
 import React from "react";
-import QuestionContent from "./QuestionContent";
+import QuestionContent from "./QuestionContent.js";
 
 class MainContent extends React.Component {
   constructor() {
