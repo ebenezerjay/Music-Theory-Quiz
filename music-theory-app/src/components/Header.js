@@ -3,9 +3,9 @@ import Nav from "./Nav.js";
 
 
 class Header extends React.Component {
-  constructor() {
-    super();
-  }
+  // constructor() {
+  //   super();
+  // }
 
   render() {
     return (

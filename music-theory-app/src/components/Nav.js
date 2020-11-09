@@ -2,9 +2,9 @@ import React from "react";
 import NavUl from "./NavUl.js"
 
 class Nav extends React.Component {
-  constructor() {
-    super();
-  }
+  // constructor() {
+  //   super();
+  // }
 
   render() {
     return (

@@ -2,9 +2,9 @@ import React from "react";
 import QuestionContent from "./QuestionContent.js";
 
 class MainContent extends React.Component {
-  constructor() {
-    super();
-  }
+  // constructor() {
+  //   super();
+  // }
 
   render() {
     return (

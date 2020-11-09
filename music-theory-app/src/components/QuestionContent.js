@@ -14,7 +14,7 @@ class QuestionContent extends React.Component {
   }
 
   render() {
-    const quizComponent = this.state.quiz.map(qNum => (<QuizContainer key={qNum.question} quizQuestion={qNum}/>));
+    const quizComponent = this.state.quiz.map(qNum => (<QuizContainer key={qNum.id} quizQuestion={qNum}/>));
     return (
       <article className="flex">
           <h2 className="flex" id="h2-lessonNum-id">Lesson #1</h2>
