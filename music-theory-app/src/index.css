@@ -112,3 +112,8 @@ footer {
 .piano-image {
   width: 75%;
 }
+
+.question-answer-div {
+  border: 1px solid black;
+  width: 100%;
+}
