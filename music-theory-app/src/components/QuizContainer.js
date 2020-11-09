@@ -1,5 +1,4 @@
 import React from "react";
-// import quizCmajor from "./quizCmajor.js";
 
 class QuizContainer extends React.Component {
   constructor() {
@@ -8,7 +7,7 @@ class QuizContainer extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="flex question-answer-div"> 
         <p className="question-p">{}</p>
         <p className="answer-p">{}</p>
       </div>
